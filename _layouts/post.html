@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<body>
+    <main class="wrapper">
+        <nav class="navigation">
+            <section class="container">
+                <a href="#" class="navigation-title">The Pei Blog</a>
+                <ul class="navigation-list float-right">
+                    <li class="navigation-item">
+                        You are reading: <a href="{{ page.url }}" class="navigation-link">{{ page.title }}</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>  
+        <section class="container">
+            <h1 class="title">{{ page.title }}</h1>
+            <p class="content">{{ page.content }}</p>
+        </section>
+    </main>
+</body>
+
+</html>

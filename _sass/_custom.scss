@@ -1,0 +1,78 @@
+// Navigation
+.navigation {
+    background: white;
+    border-bottom: .1rem solid #d1d1d1;
+    display: block;
+    height: 5.2rem;
+    left: 0;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navigation .container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navigation .navigation-link, .navigation .navigation-title, .navigation .title {
+    display: inline;
+    font-size: 1.6rem;
+    line-height: 5.2rem;
+    padding: 0;
+    text-decoration: underline !important;
+}
+
+
+.navigation .navigation-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: 5rem;
+}
+
+.navigation .navigation-item {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 2.5rem;
+    position: relative;
+}
+
+// Header
+.header .container {
+    border-top: 0;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.header .img {
+    height: 15rem;
+    margin-bottom: 2rem;
+    color: red !important;
+}
+
+// Sub Nav
+.sub-nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+.sub-nav li a {
+    text-decoration: underline;
+}
+
+// Helpers
+.red-box {
+    background: red;
+    color: white;
+    padding: 0.5% 2% !important;
+}
+
+
+.title {
+    font-family: 'Libre Barcode 128 Text', cursive !important;    
+}

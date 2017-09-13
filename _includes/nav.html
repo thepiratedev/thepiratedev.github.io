@@ -1,0 +1,12 @@
+<nav class="navigation">
+    <section class="container">
+        <a href="#" class="navigation-title">The Pei Blog</a>
+        <ul class="navigation-list float-right">
+            {% for post in site.posts limit:1 %}
+            <li class="navigation-item">
+                Recent Post: <a href="{{ post.url }}" class="navigation-link">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</nav>
