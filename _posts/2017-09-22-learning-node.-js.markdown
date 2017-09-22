@@ -10,6 +10,26 @@ excerpt_separator: <!--more-->
 
 We will try to learn the basics of node.js in this post. We'll talk about what, why and how it works and how to install it. We're also gonna try to build our own simple module using node.js and publish it 
 
+### Prerequisites
+> Basic understanding of javascript programming concepts
+
+## What is Node.js?
+it's a JavaScript runtime built on Chrome's V8 JavaScript engine. It runs javascript on the server to build real-time apps with javascript.
+
+## What is Non-blocking I/O?
+Node uses non-blocking I/O it works on a single thread which allows to support thousands of connections. This makes node.js fast and efficient.
+
+## What can we build with Node.js?
+* REST API's & Backend Applications
+* Real Time Services
+* Blogs, CMS, Social Applications
+* Utilities and Tools
+
+## What is NPM?
+NPM stands for node.js package manager. It is used to install node programs/modules.
+
+
+
 ## Installing / Getting started
 > Using an acer laptop (e5-573) with Windows 7 while doing the installation.
 
