@@ -1,0 +1,19 @@
+{
+  "name": "peicap.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/peicap/peicap.github.io.git"
+  },
+  "author": "Kristofferson Carillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peicap/peicap.github.io/issues"
+  },
+  "homepage": "https://github.com/peicap/peicap.github.io#readme"
+}
