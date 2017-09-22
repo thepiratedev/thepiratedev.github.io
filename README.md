@@ -32,6 +32,18 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 * Ruby 2.4.1 or higher
 * Ruby Devkit
 
+### Own Tasks
+- [ ] Learn Node.js 22/09/2017
+### Site Tasks
+- [x] Add Sidebar 22/09/2017
+- [ ] Add Google Analytics 22/09/2017
+- [ ] Add Disqus 23/09/2017
+
+### Assigned Tasks
+- [x] Learn Node.js
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+
 
 ## Licensing
 
