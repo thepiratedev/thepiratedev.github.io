@@ -1,6 +1,6 @@
 title: Kristoffer's Portfolio
 email: your-email@example.com
-url: peicap.github.io
+url: ./peicap.github.io
 description: > # this means to ignore newlines until "baseurl:"
   Kristoffer's portfolio. A collection of new knowledge in web development.
 author: Kristofferson Carillo
