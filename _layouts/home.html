@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
 <body>
-    <main class="wrapper">
-        {% include nav.html %}
-        {% include header.html %}
-        {% include blogCollection.html %}
+    {% include navigation.html %}
+    <main> 
+        {% include title.html %}
+        {{content}}
     </main>
+    {% include footer.html %}
 </body>
-
+<script src="../assets/js/jquery-3.2.1.min.js"></script>
+<script src="../assets/js/materialize.min.js"></script>
+<script src="../assets/js/scripts.required.js"></script>
 </html>
