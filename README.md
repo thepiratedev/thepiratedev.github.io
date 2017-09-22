@@ -8,15 +8,13 @@ If you're using windows [this](jekyll-windows.juthilo.com) is what I follow to c
 
 Clone this reposity and cd in to it.
 ```shell
-$~/Desktop/github
-git clone https://github.com/your/your-project.git
+$ git clone https://github.com/peicap/peicap.github.io.git
 ```
 
 Run jekyll serve.
 
 ```shell
-$~/Desktop/github/peicap.github.io
-jekyll serve
+$ jekyll serve
 ```
 
 This will start jekyll and the local server will be running on http://127.0.0.1:4000 where you can view the theme.
