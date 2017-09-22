@@ -1,7 +1,7 @@
 <ul id="slide-out" class="side-nav fixed grey lighten-4">
     <li>
         <div class="user-view">
-            <a href="#!user"><img class="circle" src="../assets/img/profile.jpg"></a>
+            <a href="#!user"><img class="circle" src="{{site.url}}/assets/img/profile.jpg"></a>
             <a href="#!name"><span class="black-text name">Kristofferson Carillo</span></a>
             <a href="#!email"><span class="email">peiwebdev@gmail.com</span></a>
         </div>
@@ -18,10 +18,9 @@
                 <a class="collapsible-header">Recent Posts<i class="material-icons">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a href="#!">First</a></li>
-                        <li><a href="#!">Second</a></li>
-                        <li><a href="#!">Third</a></li>
-                        <li><a href="#!">Fourth</a></li>
+                        {% for post in site.posts %}
+                        <li><a href="{{post.url}}">{{post.title}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </li>
