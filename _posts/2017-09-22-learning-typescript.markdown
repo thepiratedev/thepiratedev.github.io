@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Learning Node.js"
-date:   2017-09-11 02:11 +0800
+title:  "Learning TypeScript"
+date:   2017-09-25 02:11 +0800
 categories: nodejs
 excerpt_separator: <!--more-->
 ---
