@@ -30,8 +30,15 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 * Ruby 2.4.1 or higher
 * Ruby Devkit
 
-## Tasks
-
+### Angular Basics
+1. Angular Tour Of Hereoes
+[x] Setup to develop locally
+[x] Master / Detail
+[x] Multiple Components
+[x] Services
+[ ] Routing
+[ ] Http
+ 
 ### Own Tasks
 - [x] Learn Node.js 22/09/2017
 - [ ] Convert any project to typescript.
