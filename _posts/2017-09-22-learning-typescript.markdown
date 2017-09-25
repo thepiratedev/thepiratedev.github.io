@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Learning TypeScript"
-date:   2017-09-25 02:11 +0800
+title:  "Learning Node.js"
+date:   2017-09-11 02:11 +0800
 categories: nodejs
 excerpt_separator: <!--more-->
 ---
@@ -67,6 +67,46 @@ document.body.innerHTML = greeter(user);
 ```
 
 ### Interfaces 
+In TypeScript, two types are compatible if their internal structure is compatible. 
 
+```javascript 
+interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+function greeter(person: Person) {
+    return "Hello, " + person.fisrtName + " "  + person.lastName; 
+}
+
+var user = { firName: "Jane", lastName: "User" } 
+
+document.body.innerHTML = greeter(user);
+```
+
+### Classes 
+classes and interfaces play well together, letting the programmer decide on the right level of abstraction.
+```javascript 
+class Student {
+    fullName: string; 
+    constructor( public firstName: string, public middleInitial: string, public lastName: string) {
+        this.fullName = firstName + " " + middleInitial + " " + lastName;
+    }
+}
+
+
+interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+function greeter(person: Person) {
+    return "Hello, " + person.fisrtName + " "  + person.lastName; 
+}
+
+var user = new Student("Jane", "M.", "User");
+
+document.body.innerHTML = greeter(user);
+```
 
 
