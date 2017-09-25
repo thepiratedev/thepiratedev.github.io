@@ -35,12 +35,12 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 
 Learn the basics of angular using angular's Tour of Heroes tutorial. Repository of the project can be found here [github.com/peicap/angular-tour-of-heroes](https://github.com/peicap/angular-tour-of-heroes).
 
-[x] Setup to develop locally
-[x] Master / Detail
-[x] Multiple Components
-[x] Services
-[ ] Routing
-[ ] Http
+- [x] Setup to develop locally
+- [x] Master / Detail 
+- [x] Multiple Components
+- [x] Services
+- [ ] Routing
+- [ ] Http
 
 ### Own Tasks
 - [x] Learn Node.js 22/09/2017
