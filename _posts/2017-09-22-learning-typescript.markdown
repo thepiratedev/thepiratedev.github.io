@@ -5,10 +5,10 @@ date:   2017-09-11 02:11 +0800
 categories: nodejs
 excerpt_separator: <!--more-->
 ---
-# Node.js
-> Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. 
+# TypeScript
+Typescript is a typed superset of Javascript that compiles to plain Javascript.
 
-We will try to learn the basics of node.js in this post. We'll talk about what, why and how it works and how to install it. We're also gonna try to build our own simple module using node.js and publish it 
+We will try to learn the basics of typescript in this post. We'll talk about what, why and how it works and how to install it.
 <!--more-->
 ### What is Typescript?
 Typescript is a typed superset of Javascript that compiles to plain Javascript.
@@ -41,7 +41,7 @@ This will create a new javascript file which contains the same JavaScript you fe
 2. Number = Decimal/Hex/Binary/Octal
 3. String = Textual Types/""/''
 4. TemplateStrings = Multiple lines using backticks ``
-5. Array = []
+5. Array = []   
 6. Generic Array Type = Array<string/ElemType>
 7. Tuple = Fixed number of elements/[string,number]
 8. Enum = Color {Red, Green, Blue } |  let c: Color = Color.Green
