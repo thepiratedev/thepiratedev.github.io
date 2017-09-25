@@ -34,6 +34,9 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 
 ### Own Tasks
 - [x] Learn Node.js 22/09/2017
+- [ ] Convert any project to typescript.
+- [ ] Create a quiz about typescript.
+- [ ] Angular/Firebase developer quiz.
 
 ### Site Tasks
 - [x] Add Sidebar 22/09/2017
@@ -42,9 +45,10 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 - [ ] Add Disqus 23/09/2017
 
 ### Assigned Tasks
-- [x] Learn Node.js
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+- [x ] Learn Node.js
+- [x ] Installing Node.js 
+- [x ] Learn TypeScript Basics
+- []
 
 
 ## Licensing
