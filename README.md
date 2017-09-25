@@ -32,6 +32,7 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 
 ### Angular Course
 1. Angular Tour Of Hereoes
+
 [x] Setup to develop locally
 [x] Master / Detail
 [x] Multiple Components
