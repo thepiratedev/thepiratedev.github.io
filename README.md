@@ -53,10 +53,10 @@ This will start jekyll and the local server will be running on http://127.0.0.1:
 - [ ] Add Disqus 23/09/2017
 
 ### Assigned Tasks
-- [x ] Learn Node.js
-- [x ] Installing Node.js 
-- [x ] Learn TypeScript Basics
-- []
+- [x] Learn Node.js
+- [x] Installing Node.js 
+- [x] Learn TypeScript Basics
+- [ ] Learn Angular Basics
 
 
 ## Licensing
