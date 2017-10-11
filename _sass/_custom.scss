@@ -1,45 +1,12 @@
-header,
-main,
-footer {
-    padding-left: 190px;
+.post {
+    padding: 10px 15px;
+    margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1230px) {
-    header,
-    main {
-        padding-left: 250px;
-    }
+.title {
+    background: rgb(247, 66, 66);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 992px) {
-    header,
-    main,
-    footer{
-        padding-left: 0;
-    }
-}
-
-nav.top-nav {
-    height: 60px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-nav .nav-wrapper {
-    position: relative;
-    height: 100%;
-}
-
-nav.top-nav a.page-title {
-    line-height: 60px;
-}
-
-@media only screen and (min-width: 601px) {
-    nav,
-    nav .nav-wrapper i,
-    nav a.button-collapse,
-    nav a.button-collapse i {
-        height: 64px;
-        line-height: 64px;
-    }
-}

@@ -1,112 +1,20 @@
 ---
 layout: post
-title:  "Learning Node.js"
+title:  "What is Typescript?"
 date:   2017-09-11 02:11 +0800
-categories: nodejs
+categories: [work, typescript]
 excerpt_separator: <!--more-->
 ---
-# TypeScript
+TypeScript
 Typescript is a typed superset of Javascript that compiles to plain Javascript.
 
-We will try to learn the basics of typescript in this post. We'll talk about what, why and how it works and how to install it.
-<!--more-->
-### What is Typescript?
-Typescript is a typed superset of Javascript that compiles to plain Javascript.
+**Installing / Getting started**
 
-### Installing / Getting started
-> Using an acer laptop (e5-573) with Windows 7 while doing the installation.
+Before you do anything make sure that you have [nodejs](https://nodejs.org) installed on your computer and has basic knowledge in javascript programming concepts.
 
-There are two main ways of installing typescript. 
-1. Via NPM.
-2. Using Visual Studio 2017
-
-Via NPM. 
+Install via npm package manager in your terminal and type in the following code.
 ```shell
 $ npm install -g typescript 
 ```
 
-### Prerequisites
-> Basic understanding of javascript programming concepts
-
-### Compiling your code 
-At the command line, run the TypeScript compiler.
-```shell
-$ tsc yourfile.ts
-```
-
-This will create a new javascript file which contains the same JavaScript you fed in. 
-
-### Basic Types 
-1. Boolean = True/false
-2. Number = Decimal/Hex/Binary/Octal
-3. String = Textual Types/""/''
-4. TemplateStrings = Multiple lines using backticks ``
-5. Array = []   
-6. Generic Array Type = Array<string/ElemType>
-7. Tuple = Fixed number of elements/[string,number]
-8. Enum = Color {Red, Green, Blue } |  let c: Color = Color.Green
-9. Any = for type-checking 
-10. Void = Declaring variables of type void is not useful because you can only assign undefined or null to them:
-11. Null/Undefined = Much like void, they’re not extremely useful on their own.
-12. Never: never is the return type for a function expression or an arrow function expression that always throws an exception or one that never returns.
-13. TypeAssertion = let strLength: number = (<string>someValue).length. 
-
-
-
-
-### Type Annotation
-Type annotations in TypeScript is a way to record the intended contract of a function or variable. In this case we made the greeter function called with a sing string parameter.
-
-```javascript
-funtion greeter(person: string) {
-    return "Hello" + person;
-}
-
-var user = "Jane User"
-document.body.innerHTML = greeter(user);
-```
-
-### Interfaces 
-In TypeScript, two types are compatible if their internal structure is compatible. 
-
-```javascript 
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-function greeter(person: Person) {
-    return "Hello, " + person.fisrtName + " "  + person.lastName; 
-}
-
-var user = { firName: "Jane", lastName: "User" } 
-
-document.body.innerHTML = greeter(user);
-```
-
-### Classes 
-classes and interfaces play well together, letting the programmer decide on the right level of abstraction.
-```javascript 
-class Student {
-    fullName: string; 
-    constructor( public firstName: string, public middleInitial: string, public lastName: string) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
-    }
-}
-
-
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-function greeter(person: Person) {
-    return "Hello, " + person.fisrtName + " "  + person.lastName; 
-}
-
-var user = new Student("Jane", "M.", "User");
-
-document.body.innerHTML = greeter(user);
-```
-
-
+To be continued...

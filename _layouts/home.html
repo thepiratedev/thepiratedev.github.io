@@ -1,15 +1,25 @@
+---
+comments: true
+---
+
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
 <body>
-    {% include navigation.html %}
-    <main> 
-        {% include title.html %}
-        {{content}}
-    </main>
-    {% include footer.html %}
+    <div class="container" style="margin-top: 10px;">
+       <div class="row">
+        <div class="col-md-3">
+            {% include navigation.html %}
+        </div>
+        <div class="col-md-7"> 
+            {{content}}
+        </div>
+        <div class="col-md-2"> 
+           {% include menu.html %}
+        </div>
+       </div>
+    </div>
 </body>
 <script src="../assets/js/jquery-3.2.1.min.js"></script>
-<script src="../assets/js/materialize.min.js"></script>
-<script src="../assets/js/scripts.required.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 </html>

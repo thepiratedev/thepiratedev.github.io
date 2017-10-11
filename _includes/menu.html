@@ -1,0 +1,23 @@
+<nav class="navbar sticky-top">
+    <p>
+        <strong>Main</strong>
+        <br>
+        <a href="#">Blog</a>
+        <br>
+        <a href="#">Work</a>
+    </p>
+    <p>
+        <strong>Work</strong>
+        {% for post in site.categories.work %}
+        <br>
+        <a href="{{post.url}}">{{post.title}}</a>
+        {% endfor %}
+    </p>
+    <p>
+        <strong>Projects</strong>
+        {% for post in site.categories.projects %}
+        <br>
+        <a href="{{post.url}}">{{post.title}}</a>
+        {% endfor %}
+    </p>
+</nav>

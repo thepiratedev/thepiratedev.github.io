@@ -1,21 +1,17 @@
 --- 
 layout: home 
 ---
-<div class="container" style="min-height: 300px;">
-    <div class="row">
-        <div class="col s12 flow-text">
-            <h1>Journal  <span class="new badge" data-badge-caption="posts">{{site.posts | size}}</span></h1>
-            <ul>
-                {% for post in site.posts %}
-                <li class="postList">
-                    <h3 class="postTitle"><a href="{{post.url}}">{{ post.title }}</a></h3>
-                    <p class="postExcerpt">
-                        {{post.excerpt | strip_html }}
-                    </p>
-                    <a class="btn waves-effect waves-light red lighten-3" href="{{post.url}}">Read More</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+
+{% for post in site.categories.work %}
+<div class="post">
+        <p> 
+            <span class="title">
+                <strong>{{post.title}}</strong>
+                <small>{{post.date | date_to_string}}</small>
+            </span>
+        </p>
+        
+        <p class="content">{{post.content}}</p>
+        <hr>
 </div>
+{% endfor %}
