@@ -1,25 +1,26 @@
----
-comments: true
----
-
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<body>
-    <div class="container" style="margin-top: 10px;">
-       <div class="row">
-        <div class="col-md-3">
-            {% include navigation.html %}
+    {% include head.html %}
+    <body>
+        <div class="container-fluid" style="margin-top: 10px;">
+            <div class="row">
+                <div class="col-md-2">
+                    {% include profile.html %}
+                    {% include menu.html %}
+                    {% include ads-service.html %}
+                </div>
+                <div class="col-md-6">
+                    <div class="post-list">
+                    {{content}}
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
         </div>
-        <div class="col-md-7"> 
-            {{content}}
-        </div>
-        <div class="col-md-2"> 
-           {% include menu.html %}
-        </div>
-       </div>
-    </div>
-</body>
-<script src="../assets/js/jquery-3.2.1.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+    </body>
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </html>
