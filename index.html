@@ -2,16 +2,4 @@
 layout: home 
 ---
 
-{% for post in site.categories.blog %}
-<div class="post">
-        <p> 
-            <span class="title">
-                <strong>{{post.title}}</strong>
-                <small>{{post.date | date_to_string}}</small>
-            </span>
-        </p>
-        
-        <p class="content">{{post.content}}</p>
-        <hr>
-</div>
-{% endfor %}
+ {% include main-posts.html %}
