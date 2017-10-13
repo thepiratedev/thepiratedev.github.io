@@ -1,0 +1,29 @@
+.post-widget {
+    margin: 16px 0 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+
+    .thumbnail {
+        float: left;
+        width: 120px;
+        height: 65px;
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    .title {
+        font-size: 15px;
+        padding-left: 8px;
+        height: 65px;
+        overflow: hidden;
+    }
+}
+
+.post-list {
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #fff;
+}
