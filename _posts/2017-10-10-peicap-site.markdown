@@ -4,9 +4,6 @@ title:  "Kristoffers Jekyll Site"
 categories: [projects]
 excerpt_separator: <!--more-->
 ---
-
-Kristoffer's Portfolio
-
 A collection of new knowledge in web development as an intern.
 This project will be used as a journal to record my learning career as an intern in [insert company here] under Mr./Mrs [insert name here]. You can grab a copy and use it in anyway you like.
 
