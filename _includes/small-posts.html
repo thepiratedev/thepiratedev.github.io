@@ -1,0 +1,9 @@
+<div class="post-list">
+	{% for post in site.posts %}
+			<a href="{{post.url}}">
+				<div class="small-title mb-8">
+					<strong>{{post.title}} ▶</strong> {{post.content | truncatewords:10 | strip_html }}
+				</div>
+			</a>
+	{% endfor %}
+</div>
