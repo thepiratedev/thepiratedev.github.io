@@ -5,8 +5,6 @@ date:   2017-09-11 02:11 +0800
 categories: [work, typescript]
 excerpt_separator: <!--more-->
 ---
-TypeScript
-Typescript is a typed superset of Javascript that compiles to plain Javascript.
 
 **Installing / Getting started**
 
