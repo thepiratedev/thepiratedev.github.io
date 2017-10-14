@@ -1,9 +1,9 @@
-{% for post in site.categories.blog %}
+{% for post in site.posts %}
 	<div class="card-block post-widget">
+		<div class="thumbnail">
+			<img src="./assets/img/{{post.image}}" alt="">
+		</div>
 		<a class="" href="{{post.url}}">
-			<div class="thumbnail">
-				<img src="/assets/img/{{post.image}}" alt="">
-			</div>
 			<div class="title">
 				<strong>{{post.title}} ▶</strong> {{post.content | truncatewords:50 | strip_html }}
 			</div>
