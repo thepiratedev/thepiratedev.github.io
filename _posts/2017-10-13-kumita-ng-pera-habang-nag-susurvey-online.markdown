@@ -5,7 +5,6 @@ categories: blog
 excerpt_separator: <!--more-->
 image: computer.jpg
 comments: true
-permalink: :categories/:title
 ---
 
 <p>Madali lang kumita ng pera online basta't masipag ka at kayang mag isip outside the box. Ang tanong nga lang ay kung saan nga ba ang pinaka mabilis at madali kumita na website. Basahin ang susunod na paragraph para malaman.</p>
