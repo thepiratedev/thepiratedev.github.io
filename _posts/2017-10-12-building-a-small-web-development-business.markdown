@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: post
 date:   2017-10-12 02:11 +0800
 title:  "Building a small tech business in the Philippines"
 categories: [blog]
+image: business.jpg
 excerpt_separator: <!--more-->
 ---
 
