@@ -89,7 +89,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: rgb(26, 26, 26);
@@ -3252,7 +3252,7 @@ tbody.collapse.show {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.2rem;
 }
 
 .navbar > .container,

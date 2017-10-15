@@ -1,7 +1,8 @@
 .post-widget {
-    margin: 16px 0 8px;
+    margin: 0 16px 16px 8px;
     padding-bottom: 16px;
     border-bottom: 1px solid #ccc;
+    overflow: hidden;
 
     .thumbnail {
         float: left;
@@ -26,4 +27,6 @@
     box-sizing: border-box;
     padding: 8px;
     background-color: #fff;
+    overflow: hidden;
 }
+
