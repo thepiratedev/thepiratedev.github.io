@@ -2,26 +2,13 @@
 (function() {
     var configuration = {
     "token": "6393a36f10e4541635a57073f735d269",
-    "excludeDomains": [
-        "peidev.top"
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
     "entryScript": {
         "type": "timeout",
-        "timeout": 3000,
+        "timeout": "3000",
         "capping": {
             "limit": 5,
             "timeout": 24
         }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
     }
 };
     var script = document.createElement('script');
