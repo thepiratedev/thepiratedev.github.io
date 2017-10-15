@@ -13,6 +13,7 @@ I made script in python to scrape for each popular thread in [phcorner](https://
 If you're wondering how I made the script try learning python and make a few simple scripts yourself. The key to making the bot is to use Selenium and Beautiful soup. Also note that you also need to know basic html and css to target elements. I think if you're really serious about learning python and web scraping it would only take less than a week to build a decent bot to do things for you. 
 
 Here's the latest configs, apk, vpn, ehi, hpi, etc. that I scraped in [phcorner](https://phcorner.net). If you want a copy of the script leave a message in the comments below and share this post to your friends!
+
 [http://www.datafilehost.com/d/6f2020b9](http://www.datafilehost.com/d/6f2020b9)
 [http://www.datafilehost.com/d/61a6f4d7](http://www.datafilehost.com/d/61a6f4d7)
 [http://www.datafilehost.com/d/242d1d22](http://www.datafilehost.com/d/242d1d22)
