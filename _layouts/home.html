@@ -2,16 +2,15 @@
 <html lang="en">
     {% include head.html %}
     <body>
+        {% include navbar.html %}
         <div class="container-fluid" style="margin-top: 10px;">
             <div class="row">
                 <div class="col-md-2">
                     {% include profile.html %}
-                    {% include menu.html %}
-                    {% include ads-service.html %}
                 </div>
                 <div class="col-md-6">
                     <div class="post-list">
-                    {{content}}
+                        {{content}}
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -20,7 +19,7 @@
             </div>
         </div>
     </body>
-    <script src="../assets/js/jquery-3.2.1.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 </html>
