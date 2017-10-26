@@ -1,10 +1,35 @@
-title: Kristoffer's Portfolio
-email: peiwebdev@gmail.com
-url: peidev.top
-description: > # this means to ignore newlines until "baseurl:"
-  Kristoffer's portfolio. A collection of new knowledge in web development.
+
+title: Kristofferson Carillo, Programmer
 author: Kristofferson Carillo
+
+email: peiwebdev@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Building websites and writing program, that's what I do for a living. Check out the latest stuff I'm doing with my life
+  as a freelance programmer in the Philippines who loves to build stuff and automate work. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://peidev.top" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: peisop
+lang: english
+github_username:  jekyll
+
 # Build settings
+livereload: true
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-livereload
+  - jekyll-seo-tag
+  - jemoji
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

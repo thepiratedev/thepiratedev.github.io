@@ -1,9 +1,7 @@
 ---
---- 
-@import 'bootstrap',
-        'default',
-        'main-posts',
-        'small-posts',
-        'post',
-        'font-awesome',	
-        'utilities'
+---
+@import 'normalize',
+        'skeleton',
+        'emoji',
+        'spaces',
+        'typography';
