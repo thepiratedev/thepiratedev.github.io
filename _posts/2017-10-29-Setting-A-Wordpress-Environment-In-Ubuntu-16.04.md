@@ -26,4 +26,4 @@ sudo chown www-data.www-data -R wordpress/
 sudo service apache2 restart
 {% endhighlight%}
 
-You should now be able to access [http://localhost/wordpress](http://localhost/wordress) and continue.
+You should now be able to access [http://localhost/wordpress](http://localhost/wordpress) and continue.
