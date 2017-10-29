@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="card z-depth-0 m-32">
+    <div style="margin-top: 0" class="card-title">
+        <a href="{{page.url}}" class="black-text"><b>{{page.title}}</b></a>
+    </div>
+    <small>{{page.date | date_to_string}}</small>
+</div>
+<div class="card-content">
+    {{page.content}}        
+</div>
