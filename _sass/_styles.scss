@@ -1,0 +1,42 @@
+// Global
+  html {
+}
+
+.thin {
+	font-weight: 300 !important;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Roboto', monospace;
+  font-size: 1em;
+}
+
+.highlight {
+  background: whitesmoke;
+}
+
+figure {
+  padding: 1em !important
+}
+
+pre, figure {
+  margin: 0;
+}
+
+.m-32 {
+	margin-top: 32px;
+}
+
+// Sidebar
+header, main, footer {
+    padding-left: 190px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }

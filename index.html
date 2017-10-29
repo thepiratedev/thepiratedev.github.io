@@ -4,3 +4,16 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+
+
+{% for post in site.posts%}
+<div class="card z-depth-0 m-32">
+	<div style="margin-top: 0" class="card-title">
+		<a href="{{post.url}}" title="{{post.title}}" class="black-text"><b>{{post.title}}</b></a>
+	</div>
+	<small>{{post.date | date_to_string}}</small>
+</div>
+<div class="card-content">
+	{{post.content}}
+</div>
+{% endfor %}

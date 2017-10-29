@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-   <section>
-        <div class="container">
-            <div class="row">
-                <div class="eight columns">
-                        <h3><b>(☞ﾟ∀ﾟ)☞ <a href="{{page.url}}">{{page.title}}</a></b></h3>
-                    <p>{{page.content}}</p>
-                    <div class="PageNavigation">
-                            {% if page.next.url %}
-                            <h4 class="fade">Read the next article:</h4>  
-                            <h5><a  href="{{page.next.url}}">{{page.next.title}} &raquo;</a></h5>
-                            {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-{% include plugins/livereload.html %}
-</html>
+---
+layout: default
+comments: true
+---
+<div class="card z-depth-0 m-32">
+    <div style="margin-top: 0" class="card-title">
+        <a href="{{page.url}}" class="black-text"><b>{{page.title}}</b></a>
+    </div>
+    <small>{{page.date | date_to_string}}</small>
+</div>
+<div class="card-content">
+    {{page.content}}        
+</div>
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url ="{{site.url}}/{{page.url}}"; 
+this.page.identifier = "{{page.url}}";
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://peicap.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

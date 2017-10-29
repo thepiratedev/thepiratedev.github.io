@@ -1,35 +1,44 @@
 
-title: Kristofferson Carillo, Programmer
+# Admin Information
+title: Kristofferson Carillo
+position: Web Developer
 author: Kristofferson Carillo
-
+profile: "kristofferson-carillo.png"
 email: peiwebdev@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Building websites and writing program, that's what I do for a living. Check out the latest stuff I'm doing with my life
-  as a freelance programmer in the Philippines who loves to build stuff and automate work. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://peidev.top" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  jekyll
 twitter:
   username: peisop
-lang: english
+
 github_username:  jekyll
+# Site Information
+url: "http://peidev.top"
+baseurl: "" 
+lang: english
+description: >-
+  I build great websites and automation tools with wordpress and python. I also enjoy writing content for my blog and finding ways to earn online. Follow me on Twitter or drop a line.
 
 # Build settings
 livereload: true
 markdown: kramdown
+highlighter: rouge
+
+sass: 
+ # style: compressed
 plugins:
   - jekyll-feed
   - jekyll-livereload
   - jekyll-seo-tag
   - jemoji
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+    - node_modules
+    - package.json
+
+
+# Paths
+img_path: '/assets/static'

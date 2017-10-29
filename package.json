@@ -1,0 +1,23 @@
+{
+  "name": "peicap",
+  "version": "1.0.0",
+  "description": "Pei capili portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peicap/peicap.github.io.git"
+  },
+  "author": "Kristofferson Carillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peicap/peicap.github.io/issues"
+  },
+  "homepage": "https://github.com/peicap/peicap.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1"
+  }
+}
